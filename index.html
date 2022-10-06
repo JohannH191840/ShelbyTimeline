@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album Project</title>
+
+    <Style>
+
+#body{
+    background-color: black;
+    background-image: url("garage.png");
+    background-repeat: no-repeat;
+   
+}
+     
+
+        #firstphoto{ 
+           background-image: url("65ShelbyMustangGT350.png");
+        }
+
+
+        #firstphoto:hover{
+            width: 350px;
+        }
+
+
+        #secondphoto{ 
+           background-image: url("66ShelbyMustangGt350-H.png");   
+        }
+
+
+        #secondphoto:hover{
+            width: 350px;
+        }
+
+
+        #thirdphoto{
+           background-image: url("67ShelbyGt500.png"); 
+        }
+
+
+        #thirdphoto:hover{
+            width: 350px;
+        }
+
+
+        #fourthphoto{
+           background-image: url("68ShelbyGt350.png");
+           background-size: 350px;
+        }
+
+
+        #fourthphoto:hover{
+            width: 350px;
+        }
+
+
+        #fifthphoto{
+           background-image: url("68ShelbyGT500.png");
+        }
+
+
+        #fifthphoto:hover{
+            width: 350px;
+        }
+
+
+        #sixphoto{
+            background-image: url("68ShelbyGt500Kr.png");
+            background-size: 350px;
+ 
+        }
+
+
+        #sixphoto:hover{
+            width: 350px;
+        }
+
+
+        #sevenphoto{
+            background-image: url("07-09ShelbyGt500.png");
+            background-size: 350px;
+            
+        }
+
+        #sevenphoto:hover{
+            width: 350px;
+        }
+
+        #eighthphoto{
+            background-image: url("10-14ShelbyGt500.png");
+            background-size: 350px;
+        }
+
+        #eighthphoto:hover{
+            width: 350px;
+        }
+
+        #ninephoto{
+            background-image: url("11-12Gt350.png");
+        }
+
+        #ninephoto:hover{
+            width: 350px;
+        }
+
+
+        #tenphoto{
+            background-image: url("16ShelbyGt350.png");
+        }
+
+
+        #tenphoto:hover{
+            width: 350px;
+        }
+
+
+        #elevenphoto{
+            background-image: url("16ShelbyGT350R.png");
+            background-size: 350px;
+        }
+
+
+        #elevenphoto:hover{
+            width: 350px;
+        }
+
+        #twelvephoto{
+            background-image: url("20Gt500.png");
+            background-size: 350px;
+        }
+
+        #twelvephoto:hover{
+            width: 350px;
+        }
+
+
+
+        #firstphoto, #thirdphoto, #fifthphoto, #sevenphoto{
+            margin-top: 115px;
+        }
+
+
+        #secondphoto, #fourthphoto, #sixphoto, #eighthphoto{
+            margin-top: 350px;
+        }
+
+        #ninephoto, #tenphoto, #elevenphoto, #twelvephoto{
+            margin-top: 600px;
+            
+        }
+
+        #firstphoto, #secondphoto, #ninephoto{
+            margin-left: 80px;
+        }
+
+
+        #thirdphoto, #fourthphoto, #tenphoto{
+            margin-left: 430px;
+        }
+
+        #fifthphoto, #sixphoto, #elevenphoto{
+            margin-left: 780px;
+        }
+
+        #sevenphoto, #eighthphoto, #twelvephoto{
+            margin-left: 1130px;
+        }
+
+
+        #firstphoto, #secondphoto, #thirdphoto, #fourthphoto, #fifthphoto, #sixphoto, #sevenphoto, #eighthphoto, #ninephoto, #tenphoto, #elevenphoto, #twelvephoto{
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: width 2s;
+            background-color: gray;
+            width: 200px;
+            height: 200px;
+            float: left;
+            border-radius: 50%;
+            box-shadow: 0px 30px 30px;
+
+        }
+
+        #header{
+            position: absolute;
+            
+            width: 600px;
+            height: 100px;
+            text-align: center;
+            font-size: 40px;
+            margin-left: 430px;
+            margin-top: 30px;
+        }
+        
+        
+      
+
+
+
+
+    </Style>
+</head>
+<body id="body">
+
+    <div class="photoback">
+        <div id="header"> Shelby Ford Mustang Timeline</div>
+        <div id="firstphoto"></div>
+        <div id="secondphoto"></div>
+        <div id="thirdphoto"></div>
+        <div id="fourthphoto"></div>
+        <div id="fifthphoto"></div>
+        <div id="sixphoto"></div>
+        <div id="sevenphoto"></div>
+        <div id="eighthphoto"></div>
+        <div id="ninephoto"></div>
+        <div id="tenphoto"></div>
+        <div id="elevenphoto"></div>
+        <div id="twelvephoto"></div>
+      
+    </div>
+    
+</body>
+</html>
